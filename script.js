@@ -6,6 +6,7 @@ const lennyFaces = [
     "(づ◔ ͜ʖ◔)づ",
     "(⌐■_■)",
     "ಠ_ಠ"
+    //These are where the faces are stored
 ]
 
 var number =  Math.floor((Math.random() * lennyFaces.length) + 1);
