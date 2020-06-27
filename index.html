@@ -4,7 +4,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>Lenny Search</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -19,5 +19,25 @@
     </div>
 
     <script src="script.js"></script>
+
+    <audio id="audioID">
+
+          <source src="./Ping!.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Footer -->
+    <div id="footer" onmouseover="playAudio()" onclick="playAudio()"><h4 id="easter">Created With Love by Dolr!</div>
+
+    <script>
+
+var audio1 = document.getElementById("audioID");
+
+//Example of an HTML Audio/Video Method
+
+function playAudio() {
+  audio1.play();
+  document.getElementById("easter").innerHTML = "Hope You Enjoy Your Easter Egg! (Please Click!)";
+}
+    </script>
   </body>
 </html>
